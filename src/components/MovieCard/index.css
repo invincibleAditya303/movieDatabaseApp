@@ -1,0 +1,61 @@
+.movie-item {
+  height: 60vh;
+  width: 30vw;
+  background-color: #292929;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.movie-img {
+  height: 30vh;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.rating-container {
+  width: 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.star-icon {
+  height: 2vh;
+  width: 2vw;
+  color: #fcce04;
+}
+
+.rating-text {
+  color: #cac9c9;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.movie-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.view-button {
+  height: 36px;
+  width: 120px;
+  background-color: #454545;
+  color: #0384fc;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

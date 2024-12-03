@@ -1,0 +1,6 @@
+.cast-card-container {
+  width: 70vw;
+  display: flex;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}

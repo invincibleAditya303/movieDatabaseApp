@@ -1,0 +1,12 @@
+.top-rated-bg-container {
+  width: 100vw;
+}
+
+.top-rated-container {
+  min-height: 90vh;
+  width: 100%;
+  background-color: #010101;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

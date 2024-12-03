@@ -1,0 +1,74 @@
+.movie-bg-container {
+  width: 100vw;
+  background-color: #292929;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-details-container {
+  height: 55vh;
+  width: 70vw;
+  margin-bottom: 15px;
+}
+
+.movie-overview-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.movie-image {
+  height: 100%;
+  width: 20vw;
+  margin-right: 15px;
+}
+
+.movie-details-text-container {
+  height: 100%;
+  width: 30vw;
+}
+
+.movie-card-title {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.movie-card-rating-container {
+  height: 10vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.movie-card-rating-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-rating-star-icon {
+  height: 2vh;
+  width: 2vw;
+  color: #fcce04;
+}
+
+.movie-rating-text {
+  color: #cac9c9;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.movie-overview-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding-top: 5px;
+}

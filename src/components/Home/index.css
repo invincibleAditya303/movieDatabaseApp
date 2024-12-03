@@ -1,0 +1,62 @@
+.home-bg-container {
+  width: 100vw;
+}
+
+.home-container {
+  min-height: 90vh;
+  width: 100%;
+  background-color: #010101;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movies-section-failure-view-container {
+  height: 90vh;
+  width: 100vw;
+  background-color: #010101;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies-section-failure-view-img {
+  height: 40vh;
+  width: 50vw;
+}
+
+.movies-section-failure-heading {
+  color: #ffffff;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.movies-section-failure-text {
+  color: #f8fafc;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+
+.movies-section-retry-button {
+  height: 42px;
+  width: 90px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-align: center;
+  padding-top: auto;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.loader-container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.upcoming-bg-container {
+  width: 100vw;
+}
+
+.upcoming-container {
+  min-height: 90vh;
+  width: 100%;
+  background-color: #010101;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
